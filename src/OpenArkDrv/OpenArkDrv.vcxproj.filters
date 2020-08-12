@@ -26,6 +26,15 @@
     <ClCompile Include="wingui\ops-hotkey\utils\utils.cpp">
       <Filter>wingui\ops-hotkey\utils</Filter>
     </ClCompile>
+    <ClCompile Include="syscall\ssdt.cpp">
+      <Filter>syscall</Filter>
+    </ClCompile>
+    <ClCompile Include="syscall\sssdt.cpp">
+      <Filter>syscall</Filter>
+    </ClCompile>
+    <ClCompile Include="syscall\syscall.cpp">
+      <Filter>syscall</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="notify">
@@ -55,6 +64,9 @@
     <Filter Include="wingui\ops-hotkey\utils">
       <UniqueIdentifier>{09ee9ed7-a9de-4f95-8f43-811d97aa7892}</UniqueIdentifier>
     </Filter>
+    <Filter Include="syscall">
+      <UniqueIdentifier>{23237549-1674-40e7-b68a-c72a15adc41c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="driver\driver.h">
@@ -83,6 +95,9 @@
     </ClInclude>
     <ClInclude Include="wingui\ops-hotkey\utils\utils.h">
       <Filter>wingui\ops-hotkey\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall\syscall.h">
+      <Filter>syscall</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
